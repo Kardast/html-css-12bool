@@ -1,0 +1,23 @@
+[class*="col-"]{
+    min-height: 50px;
+    background-color: rgb(84, 84, 216);
+    border: solid 1px white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tall_row{
+    min-height: 80px;
+}
+
+.inside_row{
+    padding: 10px 10px;
+}
+
+.inside_col{
+    background-color: green;
+    border: none;
+    border: solid 1px rgb(84, 84, 216);
+}
