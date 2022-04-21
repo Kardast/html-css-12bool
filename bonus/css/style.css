@@ -1,0 +1,54 @@
+[class*="col-"]{
+    min-height: 50px;
+    background-color: rgb(84, 84, 216);
+    border: solid 1px white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#col_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: white;
+}
+
+#justify_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+#justify_flex_two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tall_row{
+    min-height: 80px;
+}
+
+.huge_row{
+    min-height: 300px;
+
+}
+
+.inside_row{
+    padding: 10px 10px;
+}
+
+.inside_col{
+    background-color: rgb(32, 211, 32);
+    border: none;
+    border: solid 1px rgb(84, 84, 216);
+}
+
+.tall_inside_col{
+    min-height: 100px;
+}
+
+.space{
+    height: 25px;
+}
